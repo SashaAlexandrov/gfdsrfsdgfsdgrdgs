@@ -1,0 +1,13 @@
+@medi all and(min-width: 590px) {
+    body {
+        width: 590px;
+    }
+    .wrapper {
+        width: 590px;
+    }
+    .card {
+        width: 590px;
+    }
+    
+    }
+

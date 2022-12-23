@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    min-width: 100wh;
+    min-height: 100vh;
+}
+body {
+    background-image: url('../img/images/fon-body.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper {
+    min-width: 100wh;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+header {
+    font-weight: 900;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+h2 {
+    text-align: center;
+    color: wheat;
+}
+main {
+display: grid;
+ justify-content: center;    
+}
+a {
+    position: relative;
+    top: 450px;
+    left: 450px;
+    font-size: 35px;
+    color: yellow;
+}
+@media all end(min-width: 590px) {
+    body {
+        width: 590px;
+    }
+}
